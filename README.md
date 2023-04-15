@@ -1,5 +1,4 @@
-# Brain-Cell-Segmentation-and-Detection-from-the-LIVECell-Dataset-Using-Deep-Learning-with-the-Efficie
-Brain Cell Segmentation and Detection from the LIVECell Dataset Using Deep Learning with the EfficientDet Model
+# Brain-Cell-Segmentation-and-Detection-from-the-LIVECell-Dataset-Using-Deep-Learning-with-the-EfficientDet-Model
 https://ieeexplore.ieee.org/document/9945050
 
 Abstract:
