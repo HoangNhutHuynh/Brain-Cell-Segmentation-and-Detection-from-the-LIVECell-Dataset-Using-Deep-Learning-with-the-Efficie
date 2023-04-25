@@ -15,31 +15,18 @@ Note: while predictions are not allowed to overlap, the training labels are prov
 
 Files
 train.csv - IDs and masks for all training objects. None of this metadata is provided for the test set.
-
 id - unique identifier for object
-
 annotation - run length encoded pixels for the identified neuronal cell
-
 width - source image width
-
 height - source image height
-
 cell_type - the cell line
-
 plate_time - time plate was created
-
 sample_date - date sample was created
-
 sample_id - sample identifier
-
 elapsed_timedelta - time since first image taken of sample
-
 sample_submission.csv - a sample submission file in the correct format
-
 train - train images in PNG format
-
 test - test images in PNG format. Only a few test set images are available for download; the remainder can only be accessed by your notebooks when you submit.
-
 train_semi_supervised - unlabeled images offered in case you want to use additional data for a semi-supervised approach.
 
 LIVECell_dataset_2021 - A mirror of the data from the LIVECell dataset. LIVECell is the predecessor dataset to this competition. You will find extra data for the SH-SHY5Y cell line, plus several other cell lines not covered in the competition dataset that may be of interest for transfer learning.
