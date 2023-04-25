@@ -6,7 +6,9 @@ Neurological disorders are a common cause of death and disability in the world. 
 
 This research is funded by The Murata Science Foundation under grant number 22VH04. We would like to thank Ho Chi Minh City University of Technology (HCMUT), VNU-HCM for the support of time and facilities for this study.
 
-Cite: H. N. Huynh, Q. T. Ha, A. T. Tran, H. D. T. Tran, P. A. Bui and T. N. Tran, "Brain Cell Segmentation and Detection from the LIVECell Dataset Using Deep Learning with the EfficientDet Model," 2022 IEEE 4th Eurasia Conference on Biomedical Engineering, Healthcare and Sustainability (ECBIOS), Tainan, Taiwan, 2022, pp. 12-15, doi: 10.1109/ECBIOS54627.2022.9945050.
+Cite: 
+1. H. N. Huynh, Q. T. Ha, A. T. Tran, H. D. T. Tran, P. A. Bui and T. N. Tran, "Brain Cell Segmentation and Detection from the LIVECell Dataset Using Deep Learning with the EfficientDet Model," 2022 IEEE 4th Eurasia Conference on Biomedical Engineering, Healthcare and Sustainability (ECBIOS), Tainan, Taiwan, 2022, pp. 12-15, doi: 10.1109/ECBIOS54627.2022.9945050. \
+2. Hoang Nhut Huynh, Anh Tu Tran, Hong Duyen Trinh Tran and Trung Nghia Tran, "Brain cell segmentation from the LIVECell dataset using deep learning," The 9th International Conference in Vietnam on the Development of Biomedical Engineering (BME9) (Processing)
 
 # Dataset Description
 In this competition we are segmenting neuronal cells in images. The training annotations are provided as run length encoded masks, and the images are in PNG format. The number of images is small, but the number of annotated objects is quite high. The hidden test set is roughly 240 images. Link: https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/overview
