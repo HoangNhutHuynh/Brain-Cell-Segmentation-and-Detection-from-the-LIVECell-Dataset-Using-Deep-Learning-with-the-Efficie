@@ -9,7 +9,7 @@ This research is funded by The Murata Science Foundation under grant number 22VH
 Cite: H. N. Huynh, Q. T. Ha, A. T. Tran, H. D. T. Tran, P. A. Bui and T. N. Tran, "Brain Cell Segmentation and Detection from the LIVECell Dataset Using Deep Learning with the EfficientDet Model," 2022 IEEE 4th Eurasia Conference on Biomedical Engineering, Healthcare and Sustainability (ECBIOS), Tainan, Taiwan, 2022, pp. 12-15, doi: 10.1109/ECBIOS54627.2022.9945050.
 
 # Dataset Description
-In this competition we are segmenting neuronal cells in images. The training annotations are provided as run length encoded masks, and the images are in PNG format. The number of images is small, but the number of annotated objects is quite high. The hidden test set is roughly 240 images.
+In this competition we are segmenting neuronal cells in images. The training annotations are provided as run length encoded masks, and the images are in PNG format. The number of images is small, but the number of annotated objects is quite high. The hidden test set is roughly 240 images. Link: https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/overview
 
 Note: while predictions are not allowed to overlap, the training labels are provided in full (with overlapping portions included). This is to ensure that models are provided the full data for each object. Removing overlap in predictions is a task for the competitor.
 
