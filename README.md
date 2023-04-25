@@ -31,27 +31,27 @@ train_semi_supervised - unlabeled images offered in case you want to use additio
 
 # LIVECell_dataset_2021 - A mirror of the data from the LIVECell dataset. LIVECell is the predecessor dataset to this competition. You will find extra data for the SH-SHY5Y cell line, plus several other cell lines not covered in the competition dataset that may be of interest for transfer learning.
 
-##What is it?
+## What is it?
 LIVECell (Label-free In Vitro image Examples of Cells) is a new dataset of manually annotated, label-free, phase-contrast images of 2D cell culture.\
 
 "Label free" here is used in the medical sense - no fluorescent labels added to the samples. It is labeled in the machine learning sense as there are manual annotations.\
 
-##What is it for?
+## What is it for?
 Introduces the largest high-quality resource for label-free cell segmentation. Presents trained models developed to segment individual cells, for application in new research to enable label-free single-cell studies. Proposes a suite of benchmarks, which will readily facilitate continued development and performance comparison of future models.\
 
-##What's in images?
+## What's in images?
 5239 manually annotated, expert-validated, Incucyte HD phase-contrast microscopy images. There are eight types of cells chosen to maximize diversity of morphologies. All the images were captured by the same equipment, same magnification, resolution and cropped to the same size.
 What are the annotations? More than a total of 1.6 million annotated cells. Manually annotated by a managed team of professional annotators, followed by two stages of quality assurance. The first level was performed by the annotation managers and second round by an experienced cell biologist.\
 
-##What were the experiments?
+## What were the experiments?
 Two architectures were tested using inherently different object detection mechanisms: anchor-based and anchor-free. The anchor-based model was an adapted version of Cascade Mask RCNN using a ResNest-200 backbone. The anchor-free model was based on CenterMask.
 Nine models of each architecture were trained on LIVECell, one model on the whole dataset (LIVECell-wide train and evaluate benchmark) and one for each of the eight cell types For normalization, pixel intensity values were centered around zero by subtracting by the global average pixel value for the dataset (128), and then divided by the global standard deviation (11.58). To reduce the risk of overfitting, all training used multi-scale data augmentation meaning that image sizes were randomly changed from the original 520 × 704 pixels to a size with the same ratios, but shortest side set to one of (440, 480, 520, 580, 620) pixels. All models were trained on a NVIDIA DGX-1 server hosting eight NVIDIA Tesla V100 GPUs with 32 Gb of GPU RAM each, dual 20-Core 2.2 GHz Intel Xeon CPUs and 512 Gb system RAM. Microsoft COCO evaluation protocol was used but slightly modified to better reflect cell sizes.
 
-##What were the findings?
+## What were the findings?
 When trained and evaluated on all of LIVECell, the two models achieve very similar accuracy. Though anchor based model pulls ahead on smaller subsets of data. Certain cell types in LIVECell, predominately BV-2, BT-474, Huh7 and SH-SY5Y, form densely packed clusters where it is not possible even for an experienced cell biologist to detect boundaries between individual cells
 There is a large performance difference across cell types. In particular SH-SY5Y is very sensitive to IoU threshold.
 Models perform better on each individual cell-type test set when trained on all cell types compared to training on that single cell type - indicating that a cell-type universal model is preferable to a specific one.
 
-##References
+## References
 The article: https://www.nature.com/articles/s41592-021-01249-6
 The repository: https://github.com/sartorius-research/LIVECell
