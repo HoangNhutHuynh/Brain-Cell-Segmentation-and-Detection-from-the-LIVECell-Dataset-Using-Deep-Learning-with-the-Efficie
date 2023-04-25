@@ -53,5 +53,5 @@ There is a large performance difference across cell types. In particular SH-SY5Y
 Models perform better on each individual cell-type test set when trained on all cell types compared to training on that single cell type - indicating that a cell-type universal model is preferable to a specific one.
 
 ## References
-The article: https://www.nature.com/articles/s41592-021-01249-6
+The article: https://www.nature.com/articles/s41592-021-01249-6 \
 The repository: https://github.com/sartorius-research/LIVECell
